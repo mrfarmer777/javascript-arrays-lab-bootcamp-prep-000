@@ -31,10 +31,12 @@ var removeFirstKitten=function(){
 
 var appendKitten=function(name){
   var newArray = kittens.slice(0,kittens.length);
-  return newArray.push(name);
+  newArray.push(name);
+  return newArray;
 }
 
 var prependKitten=function(name){
   var newArray = kittens.slice(0,kittens.length);
-  return newArray.push(name);
+  newArray.push(name);
+  return newArray;
 }
